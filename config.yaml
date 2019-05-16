@@ -1,0 +1,12 @@
+restart-times: 0
+cluster: "/gpfs/hpchome/taavi74/.config/snakemake/virome/scheduler.py" #
+cluster-status: "/gpfs/hpchome/taavi74/.config/snakemake/virome/slurm_status.py" #
+cluster-config: "/gpfs/hpchome/taavi74/.config/snakemake/virome/cluster_spec.yaml" #abs path
+max-jobs-per-second: 1
+max-status-checks-per-second: 10
+cores: 99 # how many jobs you want to submit to your cluster queue
+local-cores: 1
+rerun-incomplete: true  # recomended for cluster submissions
+keep-going: true
+use-conda: true
+use-singularity: true
