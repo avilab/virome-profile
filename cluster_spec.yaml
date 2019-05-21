@@ -67,8 +67,8 @@ megablast_nt:
 bwa_mem_refgenome:
   mem: 10
   time: 480 
-bwa_map_refbac:
-  mem: 32
+bwa_mem_refbac:
+  mem: 10
   time: 120
 fastq_join:
   time: 15
