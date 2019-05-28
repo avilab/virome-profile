@@ -67,14 +67,12 @@ megablast_nt:
 bwa_mem_refgenome:
   mem: 10
   time: 480 
+assemble:
+  mem: 4
+  time: 480
 bwa_mem_refbac:
   mem: 10
   time: 120
-fastq_join:
-  time: 15
-cd_hit:
-  mem: 8
-  time: 480
 blastn_virus:
   time: 70
 blastx_virus:
@@ -88,7 +86,7 @@ filter_viruses:
   time: 120
 blastn_nt:
   mem: 40
-  time: 120
+  time: 240
 blastx_nr:
   mem: 40
   time: 240
