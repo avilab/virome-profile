@@ -70,11 +70,10 @@ bwa_mem_refgenome:
 assemble:
   mem: 4
   time: 480
-bwa_mem_refbac:
-  mem: 10
-  time: 120
+bbwrap:
+  time: 60
 blastn_virus:
-  time: 70
+  time: 140
 blastx_virus:
   mem: 4
   time: 480
