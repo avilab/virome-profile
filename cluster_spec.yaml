@@ -56,14 +56,14 @@ __default__:
 
 
 # specific parameters for certain rules, which need more time/memory
+preprocess:
+  time: 45
 repeatmasker:
-  time: 750
-  mem: 8
-megablast_refgenome:
   time: 30
+  mem: 4
 megablast_nt:
   mem: 40
-  time: 240
+  time: 120
 bwa_mem_refgenome:
   mem: 10
   time: 480 
@@ -71,9 +71,10 @@ assemble:
   mem: 4
   time: 480
 bbwrap:
+  mem: 8
   time: 60
 blastn_virus:
-  time: 140
+  time: 240
 blastx_virus:
   mem: 4
   time: 480
@@ -85,7 +86,7 @@ filter_viruses:
   time: 120
 blastn_nt:
   mem: 40
-  time: 240
+  time: 480
 blastx_nr:
   mem: 40
   time: 240
