@@ -59,20 +59,26 @@ __default__:
 preprocess:
   time: 45
 repeatmasker:
-  time: 30
+  time: 90
   mem: 4
+cd_hit:
+  mem: 8
+  time: 120
 megablast_nt:
   mem: 40
-  time: 120
+  time: 360
 bwa_mem_refgenome:
   mem: 10
-  time: 480 
+  time: 840 
+unmapped_refgenome:
+  mem: 4
+  time: 30
 assemble:
   mem: 4
-  time: 480
+  time: 600
 bbwrap:
   mem: 8
-  time: 60
+  time: 120
 blastn_virus:
   time: 240
 blastx_virus:
@@ -92,4 +98,6 @@ blastx_nr:
   time: 240
 filter_blasted_viruses:
   mem: 4
+  time: 30
+results:
   time: 30
