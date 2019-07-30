@@ -69,7 +69,7 @@ megablast_nt:
   time: 360
 bwa_mem_refgenome:
   mem: 10
-  time: 840 
+  time: 1200
 unmapped_refgenome:
   mem: 4
   time: 30
