@@ -71,7 +71,7 @@ bwa_mem_refgenome:
   mem: 10
   time: 1200
 unmapped_refgenome:
-  mem: 4
+  mem: 8
   time: 30
 assemble:
   mem: 4
