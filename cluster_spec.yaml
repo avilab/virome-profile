@@ -78,7 +78,7 @@ assemble:
   time: 600
 bbwrap:
   mem: 8
-  time: 120
+  time: 180
 blastn_virus:
   time: 240
 blastx_virus:
