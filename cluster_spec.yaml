@@ -102,4 +102,4 @@ filter_blasted_viruses:
 results:
   time: 30
 classify_phages_viruses:
-  time: 30
+  time: 60
