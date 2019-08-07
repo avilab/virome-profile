@@ -103,3 +103,4 @@ results:
   time: 30
 classify_phages_viruses:
   time: 60
+  mem: 4
