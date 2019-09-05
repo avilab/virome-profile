@@ -75,10 +75,10 @@ unmapped_refgenome:
   time: 30
 assemble:
   mem: 8
-  time: 600
+  time: 1200
 bbwrap:
   mem: 8
-  time: 180
+  time: 360
 blastn_virus:
   time: 240
 blastx_virus:
