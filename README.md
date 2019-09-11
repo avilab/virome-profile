@@ -12,7 +12,7 @@ To deploy this profile,
 ```
 mkdir -p ~/.config/snakemake
 cd ~/.config/snakemake
-git clone https://github.com/avilab/vsprofile.git
+git clone git@github.com:avilab/virome-profile.git
 ```
 
 Then, you can run Snakemake with
