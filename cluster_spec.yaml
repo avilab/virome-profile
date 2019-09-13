@@ -77,6 +77,7 @@ cd_hit:
   time: 480
 blastn_virus:
   time: 70
+  mem: 26
 blastx_virus:
   mem: 4
   time: 480
