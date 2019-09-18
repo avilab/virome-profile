@@ -68,15 +68,15 @@ bwa_mem_refgenome:
   mem: 10
   time: 480 
 bwa_mem_refbac:
-  mem: 16
-  time: 480
+  mem: 18
+  time: 240
 fastq_join:
   time: 15
 cd_hit:
   mem: 8
   time: 480
 blastn_virus:
-  time: 240
+  time: 70
   mem: 26
 blastx_virus:
   mem: 4
