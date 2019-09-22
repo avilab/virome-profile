@@ -59,7 +59,7 @@ __default__:
 preprocess:
   time: 45
 repeatmasker:
-  time: 180
+  time: 300
   mem: 4
 cd_hit:
   mem: 8
