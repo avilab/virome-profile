@@ -1,6 +1,6 @@
 # Virome workflow profile
-This profile configures snakemake to run vs workflow in slurm (tested) cluster system. 
-VS profile is based on generic [Snakemake-Profile](https://github.com/Snakemake-Profiles/generic) and in princible can be used also on lsf and pbs cluster system. 
+This profile configures snakemake to run quantify virome workflow in slurm (tested) cluster system. 
+Virome-profile profile is based on generic [Snakemake-Profile](https://github.com/Snakemake-Profiles/generic) and in princible can be used also on lsf and pbs cluster system. 
 The mapping between snakemake ressources and cluster submission can be configured in the cluster_spec.yaml. 
 Default values are used for all rules not having the snakemake ressource paremeters.
 
