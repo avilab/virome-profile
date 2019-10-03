@@ -62,7 +62,7 @@ repeatmasker:
 megablast_refgenome:
   time: 30
 megablast_nt:
-  mem: 40
+  mem: 42
   time: 240
 bwa_mem_refgenome:
   mem: 10
@@ -76,7 +76,7 @@ cd_hit:
   mem: 8
   time: 480
 blastn_virus:
-  time: 70
+  time: 240
   mem: 26
 blastx_virus:
   mem: 4
@@ -88,11 +88,13 @@ filter_viruses:
   mem: 4
   time: 120
 blastn_nt:
-  mem: 40
-  time: 240
+  mem: 42
+  time: 720
 blastx_nr:
   mem: 40
   time: 240
 filter_blasted_viruses:
   mem: 4
   time: 30
+classify:
+  mem: 4
